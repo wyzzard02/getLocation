@@ -1,0 +1,71 @@
+/* 
+ * Always set the map height explicitly to define the size of the div element
+ * that contains the map. 
+ */
+ #map {
+
+    height: 600px;
+    width: 800px;
+  }
+  
+  /* 
+   * Optional: Makes the sample page fill the window. 
+   */
+  html,
+  body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 1%;
+    gap:5vh;
+  }
+  .buttons{
+    display: flex;
+    justify-content: center;
+    gap: 1vh;
+  }
+  .showData{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10vh;
+  }
+  .distanceBox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:10px;
+    border: 2px solid rgb(138, 138, 138);
+    border-radius: 10px;
+    font-size: 50px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 10px;
+    padding-right: 30px;
+  }
+  .distance{
+    color:red;
+  }
+  .heading{
+    font-size: 30px;
+  }
+  .userLatitude, .userLongitude, .remoteLatitude, .remoteLongitude{
+    font-size: 20px;
+  }
+  .mapContainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+  .range{
+    border:1.5px solid rgba(128, 128, 128, 0.486);
+    border-radius: 8px;
+    width:25vh;
+    padding:10px;
+  }
+  #startButton{
+    background-color:blue;
+  }
