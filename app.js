@@ -119,7 +119,7 @@ async function initMap() {
 
 
   map = new Map(document.getElementById("map"), {
-    zoom: 10,
+    zoom: 17,
     center: position1,
     mapId: "DEMO_MAP_ID",
   });
